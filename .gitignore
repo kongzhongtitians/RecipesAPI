@@ -1,24 +1,22 @@
-# Compiled class file
-*.class
+# Gradle
+.gradle/
+build/
 
-# Log file
-*.log
+# Gradle configuration
 
-# BlueJ files
-*.ctxt
+# IDEA
+.idea/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# 其他构建文件
 *.jar
 *.war
-*.nar
 *.ear
 *.zip
+*.tar
 *.tar.gz
-*.rar
+*.class
+run/
+!src/main/resources/META-INF/jarjar/*.jar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# 避免忽略gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.jar

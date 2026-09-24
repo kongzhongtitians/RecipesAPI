@@ -1,0 +1,16 @@
+{
+  "type": "recipesapi:durability_shaped",
+  "group": "durability_repair",
+  "pattern": [
+    " A ",
+    " B ",
+    "   "
+  ],
+  "key": {
+    "A": { "item": "minecraft:stone_sword" },
+    "B": { "item": "minecraft:iron_ingot" }
+  },
+  "result": {
+    "item": "minecraft:iron_nugget"
+  }
+}
